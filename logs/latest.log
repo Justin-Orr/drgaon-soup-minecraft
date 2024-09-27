@@ -1,16 +1,189 @@
-[25Sep2024 13:36:47.516] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[25Sep2024 13:36:47.524] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[25Sep2024 13:36:47.630] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\config\fml.toml is not correct. Correcting
-[25Sep2024 13:36:47.633] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[25Sep2024 13:36:47.634] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[25Sep2024 13:36:47.634] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[25Sep2024 13:36:47.649] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[25Sep2024 13:36:47.700] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/jjore/Desktop/Games/dragon-soup-minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[25Sep2024 13:36:47.901] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[25Sep2024 13:36:47.906] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[25Sep2024 13:36:47.910] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[25Sep2024 13:36:47.914] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[25Sep2024 13:36:47.984] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[25Sep2024 13:36:49.035] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[25Sep2024 13:36:49.471] [main/WARN] [net.minecraft.server.Eula/]: Failed to load eula.txt
-[25Sep2024 13:36:49.479] [main/INFO] [net.minecraft.server.Main/]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[26Sep2024 18:41:17.991] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[26Sep2024 18:41:17.998] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[26Sep2024 18:41:19.036] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Sep2024 18:41:19.077] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/jjore/Desktop/Games/dragon-soup-minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Sep2024 18:41:19.669] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[26Sep2024 18:41:19.674] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[26Sep2024 18:41:19.678] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[26Sep2024 18:41:19.681] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[26Sep2024 18:41:19.911] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[26Sep2024 18:41:19.912] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\mods\geckolib-forge-1.20.1-4.4.9.jar
+[26Sep2024 18:41:19.912] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\jjore\Desktop\Games\dragon-soup-minecraft-server\mods\curios-forge-5.10.0+1.20.1.jar
+[26Sep2024 18:41:19.912] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 22 dependencies adding them to mods collection
+[26Sep2024 18:41:22.297] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Sep2024 18:41:22.470] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[26Sep2024 18:41:22.600] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 194 options available, 3 override(s) found
+[26Sep2024 18:41:22.650] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Sep2024 18:41:22.653] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Sep2024 18:41:22.655] [main/WARN] [mixin/]: Reference map 'CHA-S-common-refmap.json' for chas-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Sep2024 18:41:22.718] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 0 override(s) found
+[26Sep2024 18:41:22.742] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Sep2024 18:41:22.792] [main/WARN] [mixin/]: Reference map 'apexcore.refmap.json' for apexcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Sep2024 18:41:22.816] [main/INFO] [Puzzles Lib/]: Loading 149 mods:
+	- aether 1.20.1-1.4.2-neoforge
+		|-- cumulus_menus 1.20.1-1.0.0-neoforge
+		\-- nitrogen_internals 1.20.1-1.0.7-neoforge
+	- alexsmobs 1.22.9
+	- amendments 1.20-1.2.11
+	- appleskin 2.5.1+mc1.20.1
+	- aquaculture 2.5.2
+	- aquamirae 6.API15
+	- architectury 9.2.14
+	- ars_elemental 1.20.1-0.6.7
+	- ars_nouveau 4.12.3
+	- athena 3.1.2
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- beautify 2.0.2
+	- betterarcheology 1.2.1-1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterendisland 1.20-Forge-2.0.6
+	- betterfortresses 1.20-Forge-2.0.6
+	- betterjungletemples 1.20-Forge-2.0.5
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettervillage 3.1.0
+	- betterwitchhuts 1.20-Forge-3.0.3
+	- blueprint 7.1.0
+	- bookshelf 20.2.13
+	- born_in_chaos_v1 1.0.0
+	- caelus 3.2.0+1.20.1
+	- cataclysm 1.99.5
+	- chas 1.20
+	- chipped 3.0.6
+	- citadel 2.6.0
+	- cleanswing 1.20-1.5
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- collective 7.84
+	- controlling 12.0.2
+	- cosmeticarmorreworked 1.20.1-v1a
+	- create 0.5.1.h
+		\-- flywheel 0.6.11-13
+	- ctov 3.4.9
+	- cupboard 1.20.1-2.7
+	- curios 5.10.0+1.20.1
+	- decorative_blocks 4.1.3
+	- disenchanting_table 3.1.0
+	- dixtaplus 1.0.0
+	- dixtas_armory 1.1.9-1.20.1-beta
+	- dragonseeker 1.2.0-1.20.1
+	- duckensinvasion 1.0.0
+	- dungeons_arise 2.1.58-1.20.x
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- effectdescriptions 8.0.2
+	- elytraslot 6.4.3+1.20.1
+		\-- mixinsquared 0.1.2-beta.6
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- enchdesc 17.1.18
+	- fantasyfurniture 9.0.0
+		|-- apexcore 10.0.0
+		\-- commonality 7.0.0
+	- farmersdelight 1.20.1-1.2.4
+	- fastleafdecay 32
+	- flib 0.0.14
+	- forge 47.3.0
+	- formations 1.0.2+a
+	- formationsnether 1.0.5
+	- framework 0.7.8
+	- geckolib 4.4.9
+	- goblintraders 1.9.3
+	- gravestone 1.20.1-1.0.23
+	- guardvillagers 1.20.1-1.6.7
+	- hammerlib 20.1.33
+	- hexerei 1.20.1-0.4.1
+	- horseexpert 8.1.1
+	- hostilevillages 1.20.1-5.7
+	- hs_bosses 1.0.0
+	- iceandfire 2.1.13-1.20.1
+	- illagerwarship 1.0.0
+	- immersive_armors 1.6.1+1.20.1
+	- improvableskills 20.1.11
+	- inka 1.0.0
+	- ironchest 1.20.1-14.4.4
+	- irons_recipe_additions 1.0.0
+	- irons_spellbooks 1.20.1-3.4.0.1
+	- jei 15.12.2.51
+	- jlme 1.4.12
+	- journeymap 5.10.2
+	- kotlinforforge 4.11.0
+	- libraryferret 4.0.0
+	- lionfishapi 1.9
+	- lithostitched 1.3.0
+	- majruszlibrary 7.0.8
+	- majruszsenchantments 1.10.8
+	- merenc 4.0
+	- minecraft 1.20.1
+	- monolib 1.3.0
+	- moonlight 1.20-2.13.0
+	- more_enchantments 1.4.3
+	- morebows 1.0.13
+	- mousetweaks 2.25.1
+	- mowziesmobs 1.6.4
+	- mr_stellarity 2.0d
+	- mutantmonsters 8.0.7
+	- mutil 6.1.1
+	- mythicmounts 20.1-7.4.2-forge
+	- naturescompass 1.20.1-1.11.2-forge
+	- new_classic_battle_towers 1.0.2
+	- obscure_api 15
+	- obscure_tooltips 2.2
+	- oculus 1.7.0
+	- outer_end 1.0.8
+	- patchouli 1.20.1-84-FORGE
+	- playeranimator 1.0.2-rc1+1.20
+	- polymorph 0.49.5+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- puzzleslib 8.1.23
+		\-- puzzlesaccessapi 8.0.7
+	- radium 0.12.4+git.26c9d8e
+	- regions_unexplored 0.5.6
+	- resourcefullib 2.1.29
+	- searchables 1.0.3
+	- simplyswords 1.56.0-1.20.1
+	- skyvillages 1.0.4
+	- smallships 2.0.0-b1.4
+	- sodiumdynamiclights 1.0.4
+	- sodiumextras 1.0.3
+	- sodiumoptionsapi 1.0.2
+		|-- fabric_api_base 0.4.31+ef105b4977
+		\-- mixinextras 0.4.1
+	- sophisticatedbackpacks 3.20.7.1075
+	- sophisticatedcore 0.6.26.668
+	- soul_like_armors_reworked 140
+	- storagenetwork 1.11.1
+	- supermartijn642configlib 1.1.8
+	- supplementaries 1.20-2.8.17
+	- swordinthestone 2.0
+	- terrablender 3.0.1.7
+	- tetra 6.4.0
+	- theabyss 1.0.0
+	- twilightforest 4.3.2508
+	- ultris_mr 5.6.9c
+	- voicechat 1.20.1-2.5.22
+	- waystones 14.1.5
+	- whisperwoods 1.20.1-2.1.2
+	- wizards_reborn 1.20.1-0.1.6
+	- wlrs 1.14.2-1.20.1
+	- yungsapi 1.20-Forge-4.0.5
+[26Sep2024 18:41:22.820] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Sep2024 18:41:23.321] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[26Sep2024 18:41:23.321] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found mixins.hammerlib.json:bs.kubejs.RecipeEventJSMixin
+[26Sep2024 18:41:23.513] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[26Sep2024 18:41:23.516] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[26Sep2024 18:41:23.518] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.LightDataAccess)
+[26Sep2024 18:41:23.569] [main/WARN] [mixin/]: Error loading class: jeresources/api/util/LootConditionHelper (java.lang.ClassNotFoundException: jeresources.api.util.LootConditionHelper)
+[26Sep2024 18:41:23.569] [main/WARN] [mixin/]: @Mixin target jeresources.api.util.LootConditionHelper was not found mixins.improvableskills.json:jer.LootConditionHelperMixin
+[26Sep2024 18:41:24.186] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[26Sep2024 18:41:24.188] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[26Sep2024 18:41:24.189] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[26Sep2024 18:41:24.190] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[26Sep2024 18:41:24.191] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.LightDataAccess)
+[26Sep2024 18:41:24.192] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.model.light.data.LightDataAccess)
+[26Sep2024 18:41:24.302] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[26Sep2024 18:41:25.472] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26Sep2024 18:41:25.473] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
