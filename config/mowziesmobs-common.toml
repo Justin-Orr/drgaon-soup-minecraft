@@ -43,9 +43,6 @@
 	[tools_and_abilities.sol_visage]
 		#Set to true for the Sol Visage to have limited durability.
 		breakable = false
-		#Maximum number of Umvuthana followers a player can summon at once using the Sol Visage
-		#Range: 0 ~ 300
-		max_followers = 10
 
 		[tools_and_abilities.sol_visage.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
@@ -158,13 +155,11 @@
 		#Controls for spawning structure/mob with world generation
 		[mobs.frostmaw.generation_config]
 			#Smaller number causes more generation, -1 to disable generation
-			#Maximum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_distance = 25
 			#Smaller number causes more generation, -1 to disable generation
-			#Minimum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_separation = 8
 			#Maximum height for generation placement. -65 to ignore
@@ -173,8 +168,7 @@
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_min = 50.0
-			#Names of structures this mob/structure will avoid when generating.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
 
 		[mobs.frostmaw.combat_config]
@@ -216,13 +210,11 @@
 		#Controls for spawning structure/mob with world generation
 		[mobs.umvuthi.generation_config]
 			#Smaller number causes more generation, -1 to disable generation
-			#Maximum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_distance = 25
 			#Smaller number causes more generation, -1 to disable generation
-			#Minimum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_separation = 8
 			#Maximum height for generation placement. -65 to ignore
@@ -231,8 +223,7 @@
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_min = 50.0
-			#Names of structures this mob/structure will avoid when generating.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
 
 		[mobs.umvuthi.combat_config]
@@ -268,13 +259,11 @@
 		#Controls for spawning structure/mob with world generation
 		[mobs.ferrous_wroughtnaut.generation_config]
 			#Smaller number causes more generation, -1 to disable generation
-			#Maximum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_distance = 15
 			#Smaller number causes more generation, -1 to disable generation
-			#Minimum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_separation = 5
 			#Maximum height for generation placement. -65 to ignore
@@ -283,8 +272,7 @@
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_min = 20.0
-			#Names of structures this mob/structure will avoid when generating.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = []
 
 		[mobs.ferrous_wroughtnaut.combat_config]
@@ -316,13 +304,11 @@
 		#Controls for spawning structure/mob with world generation
 		[mobs.sculptor.generation_config]
 			#Smaller number causes more generation, -1 to disable generation
-			#Maximum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_distance = 25
 			#Smaller number causes more generation, -1 to disable generation
-			#Minimum number of chunks between placements of this mob/structure.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_separation = 8
 			#Maximum height for generation placement. -65 to ignore
@@ -331,8 +317,7 @@
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_min = 120.0
-			#Names of structures this mob/structure will avoid when generating.
-			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = []
 
 		[mobs.sculptor.combat_config]
@@ -543,13 +528,13 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 13
+			spawn_rate = 15
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 3
+			max_group_size = 4
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
