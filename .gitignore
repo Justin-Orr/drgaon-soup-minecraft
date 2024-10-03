@@ -1,2 +1,12 @@
-logs
+logs/
 crash-reports/
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+usernamecache.json
+whitelist.json
+server.properties
+world/
+essential/loader/stage1/
+simplebackups/
